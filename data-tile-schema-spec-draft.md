@@ -49,6 +49,8 @@ This specification extends TileJSON 3.0.0. All TileJSON properties are supported
 
 ### Data Tile Schema Extensions
 
+**This specification adds the following properties to the TileJSON root object:**
+
 | Property | Type | Required | Description |
 |----------|------|----------|-------------|
 | datatileschema | string | Yes | Version of this specification (e.g., “0.1.0”) |
