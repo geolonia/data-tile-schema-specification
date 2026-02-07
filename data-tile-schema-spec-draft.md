@@ -51,13 +51,13 @@ This specification extends TileJSON 3.0.0. All TileJSON properties are supported
 
 **This specification adds the following properties to the TileJSON root object:**
 
-| Property | Type | Required | Description |
-|----------|------|----------|-------------|
-| datatileschema | string | Yes | Version of this specification (e.g., “0.1.0”) |
-| encoding | object | Yes | Encoding configuration (see below) |
-| data_range | object | No | Expected range of decoded values |
-| nodata | object | No | No-data value configuration |
-| visualization | object | No | Recommended visualization parameters |
+| Property | Type | Required for TileJSON 3.0.0 |    Required for Data Tile Schema | Description |
+|----------|------|----------|-------------|-------------|
+| datatileschema | string | No | Yes | Version of this specification (e.g., “0.1.0”) |
+| encoding | object | No | Yes | Encoding configuration (see below) |
+| data_range | object | No | No | Expected range of decoded values |
+| nodata | object | No | No | No-data value configuration |
+| visualization | object | No | No | Recommended visualization parameters |
 
 ### Encoding Object
 
